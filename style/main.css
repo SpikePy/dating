@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 65rem;
+    margin: auto;
+
+    background-color: rgb(250, 250, 250);
+    background-size: auto 100vh;
+
+    text-align: center;
+    font-size: 12pt;
+    font-family: sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+h1 {
+    margin: 3rem 0 2rem 0;
+    background: linear-gradient(135deg, rgb(191, 81, 255) 20%, rgb(85, 153, 255) 80%);
+    background-clip: text;
+    color: transparent;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.teaser {
+    margin: 10rem 0 3rem;
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 0 5rem;
+}
+
+p {
+    background-image: linear-gradient(135deg, rgba(222, 164, 255,.5) 20%, rgba(134, 182, 255,.5) 80%);
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: left;
+    hyphens: auto;
+}
+
+button {
+    margin: 3rem;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+}
+
+.footer {
+    border: 0;
+    border-top: .1rem;
+    border-style: solid;
+    border-color: rgb(210, 210, 210);
+
+    text-align: left;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    font-size: .7em;
+    padding: 1rem 2rem;
+}
+.footer a {
+    color: black;
+    text-decoration: none;
+}
