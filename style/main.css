@@ -1,43 +1,48 @@
 body {
     margin: 0;
     padding: 0;
-    max-width: 65rem;
-    margin: auto;
-
-    background-color: rgb(250, 250, 250);
-    background-size: auto 100vh;
+    height: 100%;
 
     text-align: center;
     font-size: 12pt;
     font-family: sans-serif;
+
+    background-image: url('../images/teaser_leipzig.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 14rem;
+    background-attachment: fixed;
 }
 
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
+.center {
+    max-width: 65rem;
+    margin: auto;
 }
 
 h1 {
-    margin: 3rem 0 2rem 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+
+    background-color: white;
+    margin: 0;
+    padding: 5rem 0;
+    /*
     background: linear-gradient(135deg, rgb(191, 81, 255) 20%, rgb(85, 153, 255) 80%);
     background-clip: text;
     color: transparent;
+    */
     font-size: 4rem;
     font-weight: bold;
-}
 
-.teaser {
-    margin: 10rem 0 3rem;
-    border-radius: 1rem;
-    width: 100%;
-    height: auto;
+    /* color: rgb(134, 182, 255); */
+    text-shadow: .5rem .5rem rgb(222, 164, 255), 1rem 1rem rgb(134, 182, 255);;
 }
 
 .content {
-    padding: 0 5rem;
+    padding: 20rem 5rem 50vh;
 }
 
 p {
@@ -46,12 +51,6 @@ p {
     padding: 1rem;
     text-align: left;
     hyphens: auto;
-}
-
-button {
-    margin: 3rem;
-    padding: 1rem 3rem;
-    font-size: 1.5rem;
 }
 
 .footer {
