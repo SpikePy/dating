@@ -16,18 +16,16 @@ body {
 }
 
 .header {
-    line-height: 160%;
+    /* background-color: white; */
 }
 
 h1 {
-    padding: 4rem 0 6rem;
+    padding: 4rem 0 4rem;
     margin: 0;
 
     font-size: 5rem;
-    font-weight: bold;
 
-    /* background-color: white; */
-    text-shadow: .3rem .3rem rgb(222, 164, 255), .6rem .6rem rgb(134, 182, 255);;
+    text-shadow: .3rem .3rem 3px rgb(222, 164, 255), .6rem .6rem 3px rgb(134, 182, 255);;
 }
 
 .content {
