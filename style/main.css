@@ -10,7 +10,7 @@ body {
     background-image: url('../images/teaser_leipzig.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 14rem;
+    background-position-y: 9.5rem;
     background-attachment: fixed;
 }
 
@@ -19,25 +19,22 @@ body {
     margin: auto;
 }
 
-h1 {
+.header {
     top: 0;
     left: 0;
     position: fixed;
-    width: 100vw;
     z-index: 10;
+}
 
-    background-color: white;
+h1 {
+    width: 100vw;
+    padding: 4rem 0;
     margin: 0;
-    padding: 5rem 0;
-    /*
-    background: linear-gradient(135deg, rgb(191, 81, 255) 20%, rgb(85, 153, 255) 80%);
-    background-clip: text;
-    color: transparent;
-    */
-    font-size: 4rem;
+
+    font-size: 3rem;
     font-weight: bold;
 
-    /* color: rgb(134, 182, 255); */
+    background-color: white;
     text-shadow: .3rem .3rem rgb(222, 164, 255), .6rem .6rem rgb(134, 182, 255);;
 }
 
