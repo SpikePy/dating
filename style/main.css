@@ -38,11 +38,11 @@ h1 {
     font-weight: bold;
 
     /* color: rgb(134, 182, 255); */
-    text-shadow: .5rem .5rem rgb(222, 164, 255), 1rem 1rem rgb(134, 182, 255);;
+    text-shadow: .3rem .3rem rgb(222, 164, 255), .6rem .6rem rgb(134, 182, 255);;
 }
 
 .content {
-    padding: 20rem 5rem 50vh;
+    padding: 20rem 2rem 50vh;
 }
 
 p {
