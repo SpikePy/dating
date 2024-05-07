@@ -84,6 +84,7 @@ hr {
     border-color: rgb(0, 0, 0);
     text-shadow: 0 0 1px black;
     padding: .3rem 0;
+    z-index: -1;
 }
 
 .footer a {
