@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-    background-image: linear-gradient(135deg, rgba(222, 164, 255,.5) 20%, rgba(134, 182, 255,.5) 80%);
+    background-image: linear-gradient(135deg, rgba(222, 164, 255,.8) 20%, rgba(134, 182, 255,.8) 80%);
     border-radius: 1rem;
     padding: 1rem;
 }
