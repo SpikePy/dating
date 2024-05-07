@@ -53,7 +53,8 @@ hr {
     text-align: left;
     hyphens: auto;
 }
-.teaser {
+
+.footer-img-container {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -63,19 +64,17 @@ hr {
     z-index: -1;
 }
 
-.teaser img {
-    /* border-radius: 1rem; */
+.footer-img-container img {
     width: 100%;
     max-width: 55rem;
     height: auto;
     padding: 0 1rem;
-    background-color: white;
 }
 
 
 .footer {
     border: 0;
-    border-bottom: .4rem;
+    border-bottom: .3rem;
     border-style: solid;
     border-color: rgb(0, 0, 0);
     text-shadow: 0 0 1px black;
@@ -83,9 +82,9 @@ hr {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100vw;
+    width: 100%;
     text-align: center;
-    padding: 1rem 0;
+    padding: .5rem 0;
 }
 
 .footer a {
