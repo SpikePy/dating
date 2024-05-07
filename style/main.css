@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100%;
 
     text-align: center;
     font-size: 12pt;
@@ -11,11 +10,11 @@ body {
 }
 
 header {
-    color: black;
     background-image: linear-gradient(135deg, rgba(222, 164, 255,.7) 20%, rgba(134, 182, 255,.7) 80%);
     /* background-repeat: no-repeat;
     background-position: center;
     background-position: bottom; */
+
     width: 100vw;
     margin: 0;
 
