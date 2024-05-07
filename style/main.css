@@ -13,6 +13,9 @@ body {
 .header {
     color: black;
     background-image: linear-gradient(135deg, rgba(222, 164, 255,.7) 20%, rgba(134, 182, 255,.7) 80%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: bottom;
     width: 100vw;
     margin: 0;
 
@@ -20,15 +23,14 @@ body {
     border-bottom: .2rem;
     border-style: solid;
     border-color: rgb(0, 0, 0);
+
 }
 
 h1 {
     padding: 5rem 0 5rem;
     margin: 0;
-
     font-size: 5rem;
-
-    text-shadow: .3rem .3rem 3px rgb(222, 164, 255), .6rem .6rem 3px rgb(134, 182, 255);;
+    text-shadow: .3rem .3rem 3px rgb(222, 164, 255), .6rem .6rem 3px rgb(134, 182, 255);
 }
 
 hr {
@@ -68,7 +70,7 @@ hr {
     width: 100%;
     max-width: 55rem;
     height: auto;
-    padding: 0 1rem;
+    padding: 0;
 }
 
 
